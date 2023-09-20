@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  width:165px;
+}
+
+#button-div {
+  display: none;
+  align-items: center;
+  justify-content: flex-end;
+  position: fixed;
+  bottom: 10px;
+  width:100%;
+  z-index: 1;
+}
+
+.swal-icon img{
+  width: 80px;
+  height: 80px;
+}
+
+
+/* El modal (fondo)*/
+.modal {
+  display: none; /* Oculto de manera predeterminada */
+  position: fixed; /* Se mantiene en su sitio */
+  z-index: 1; /* Permanece en la parte superior */
+  padding-top: 100px; /* Ubicación de la caja */
+  left: 0;
+  top: 0;
+  width: 100%; /* Ancho completo */
+  height: 100%; /* Altura completa */
+  overflow: auto; /* Activar el desplazamiento si es necesario */
+  background-color: rgb(0,0,0); /* Color de reserva */
+  background-color: rgba(0,0,0,0.4); /* Negro con opacidad */
+}
+
+/* Contenido del modal */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 100%;
+}
+
+
